@@ -1,0 +1,36 @@
+.features{
+    padding: 15px;
+    box-sizing: border-box;
+    background: var(--black);
+}
+
+.features__inner{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1108px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.features__inner>span{
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 155px;
+    display: flex;
+    box-sizing: content-box;
+}
+
+.icon{
+    margin-right: 15px;
+}
+
+.features__title{
+    width: 190px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+}
