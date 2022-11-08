@@ -1,0 +1,48 @@
+.header{
+    padding: 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1108px;
+    box-sizing: border-box;
+}
+
+.page{
+    margin-top: 125px;
+}
+
+.page__subtitle{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.page__title{
+    width: 600px;
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase; 
+}
+
+.page__text{
+    margin-bottom: 30px;
+    width: 750px;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.btn{
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background: var(--red);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
