@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
     <title>Freedom</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
                 <h2 class="page__subtitle">first semester</h2>
                 <h1 class="page__title">freedom studios academy</h1>
                 <p class="page__text">Taking the message of freedom to the end of the earth through media and representing christ in every way.</p>
-                <button class="btn">Select a membership plan ></button>
+                <button data-modal-target="#modal" class="btn">Select a membership plan ></button>
             </section>
         </header>
     </div>
@@ -72,7 +73,7 @@
             <h2 class="banner__subtitle">first semester</h2>
             <h1 class="banner__title">freedom studios academy</h1>
             <p class="banner__text">Taking the message of freedom to the end of the earth through media and representing christ in every way.</p>
-            <button class="btn">Select a membership plan ></button>
+            <button data-modal-target="#modal" class="btn">Select a membership plan ></button>
         </section>
     </article>
     <footer class="footer">
@@ -85,5 +86,15 @@
             </div>
         </div>
     </footer>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">Example Modal</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur a vel temporibus sunt pariatur nisi sed ipsum maiores illo qui sint voluptatum vero, numquam laudantium autem officia in, exercitationem veniam.</h1>
+      </div>
+    </div>
+    <div id="overlay"></div>
 </body>
 </html>
